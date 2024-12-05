@@ -1,0 +1,91 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(247, 200, 208);
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  font-size: 50px;
+  font-family: "Lilita One", system-ui;
+  background-image: linear-gradient(
+    rgb(195, 52, 52),
+    rgb(179, 36, 86),
+    rgb(229, 43, 71)
+  );
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin: 0px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  text-shadow: 5px 5px 2px black;
+}
+
+input {
+  padding: 10px;
+  font-family: "Patua One", serif;
+  margin: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+button {
+  padding: 10px 15px;
+  font-family: "Patua One", serif;
+  background-color: #50140e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+h2 {
+  margin: 10px;
+  font-family: "Lilita One", system-ui;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 2px 1px rgb(0, 0, 0);
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-family: "Patua One", serif;
+  color: black;
+  text-shadow: 1px 1px 1px rgb(220, 35, 66);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  font-family: "Patua One", serif;
+  margin-top: 0px;
+  font-size: 15px;
+  padding: 5px;
+  margin: 0 auto;
+  width: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+p {
+  font-family: "Patua One", serif;
+  padding: 10px;
+}
+
+footer {
+  margin: 10px;
+  color: rgb(220, 35, 66);
+  text-shadow: 1px 1px 1px black;
+  font-size: 30px;
+  font-family: "Lilita One", system-ui;
+}
